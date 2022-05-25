@@ -1,0 +1,66 @@
+
+body {
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+}
+
+p {
+    top: 0px;
+    padding: 20px;
+    font-weight: bold;
+    text-align :center;
+    font-size: 300%;
+    font-family: Cambria;
+    color: #e1f4fc;
+    
+}
+
+ul{
+    margin: 20px 0;
+}
+
+li{
+    padding-left: 20px;
+}
+
+.columna {
+    width:33%;
+    float:left;
+}
+
+@media (max-width: 500px) {
+
+.columna {
+    width:auto;
+    float:none;
+}
+
+}
+
+.parent{
+    text-align : center;
+}
+
+h3{
+    font-family: Cambria;
+    color: #e1f4fc;
+    font-size: 230%;
+    font-weight: bold;
+    text-align :center;
+}
+
+span{
+    font-family: Cambria;
+    color: #e1f4fc;
+    font-size: 180%;
+    font-weight: lighter;
+    text-align :justify;
+}
+
+
+
+
+  
