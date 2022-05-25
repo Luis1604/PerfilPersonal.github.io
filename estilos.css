@@ -27,8 +27,11 @@ li{
 }
 
 .columna {
-    width:33%;
+    width:32%;
     float:left;
+    border: 0.5px;
+    border-style: groove;
+    border-block-start-color: aliceblue;
 }
 
 @media (max-width: 500px) {
